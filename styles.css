@@ -1,0 +1,69 @@
+html { 
+    scroll-behavior: smooth;
+}
+
+h1 { 
+    text-align: center;
+    justify-content: center;
+    margin-top: 290px;
+    font-style:oblique;
+    color: white;
+    font-size: 50px;
+}
+body { 
+    background-image: url('https://i.pinimg.com/originals/67/b2/a9/67b2a9ba5e85822f237caae92111e938.gif');
+    background-size: cover ;
+    height: 100%;
+}
+
+button{ 
+    /* background-color: white;
+    text-align: center;
+    /* margin-left: 850px; */
+    /* border-radius: -150px;
+    margin: 0px 860px;
+    /* size: 150px; */ 
+    background-color: #000000;
+    color: #FFFFFF;
+    float:unset;
+    padding: 20px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin-left: 850px;
+
+}
+
+.infoBtn{ 
+    color: white;
+    margin-left: 920px;
+    font-size: 30px;
+    font-style:oblique;
+    text-decoration: none;
+}
+     .infoBtn:hover { 
+         color: white; 
+        font-weight: weight;
+        font-display: 400px;
+        justify-content: center;
+        font-size: 35px;
+    }
+.linkDirect { 
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+.linkDirect:hover { 
+    color:white; 
+        font-weight: weight;
+        font-display: 400px;
+        justify-content: center;
+        font-size: 40px;
+}
+
+

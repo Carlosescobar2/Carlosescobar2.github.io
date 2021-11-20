@@ -2,27 +2,36 @@ html {
     scroll-behavior: smooth;
 }
 
-h1 { 
+.headerText{ 
     text-align: center;
     justify-content: center;
     margin-top: 290px;
     font-style:oblique;
     color: white;
-    font-size: 50px;
+    font-size: 35px;
 }
-body { 
-    background-image: url('https://i.pinimg.com/originals/67/b2/a9/67b2a9ba5e85822f237caae92111e938.gif');
-    background-size: cover ;
-    height: 100%;
+.iconify{
+    display: -webkit-inline-box;
+    flex-wrap: wrap-reverse;
+    float:right;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+
 }
 
-button{ 
-    /* background-color: white;
-    text-align: center;
-    /* margin-left: 850px; */
-    /* border-radius: -150px;
-    margin: 0px 860px;
-    /* size: 150px; */ 
+
+.body1page{ 
+    background-image: url('https://i.pinimg.com/originals/67/b2/a9/67b2a9ba5e85822f237caae92111e938.gif');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+.viewBtn{ 
+    display: flex;
+    margin: auto;
     background-color: #000000;
     color: #FFFFFF;
     float:unset;
@@ -30,7 +39,6 @@ button{
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    margin-left: 850px;
 
 }
 
@@ -65,5 +73,4 @@ button{
         justify-content: center;
         font-size: 40px;
 }
-
 

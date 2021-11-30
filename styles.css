@@ -1,31 +1,37 @@
 html { 
     scroll-behavior: smooth;
 }
+.allIcons{
+    margin-left: 180vh;
+}
+.iconify{
+    display: -webkit-inline-box;
+     flex-wrap: wrap;
+    align-items: flex-end;
+    margin-right: 20px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
 
 .headerText{ 
-    text-align: center;
+    text-align:center;
     justify-content: center;
     margin-top: 290px;
     font-style:oblique;
     color: white;
-    font-size: 35px;
-}
-.iconify{
-    display: -webkit-inline-box;
-    flex-wrap: wrap-reverse;
-    float:right;
-    text-decoration: none;
-    color: black;
     font-size: 30px;
-
 }
+
 
 
 .body1page{ 
     background-image: url('https://i.pinimg.com/originals/67/b2/a9/67b2a9ba5e85822f237caae92111e938.gif');
-    background-size: cover ;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    max-height: 100vh;
+    min-width: 100vh;
 
 }
 

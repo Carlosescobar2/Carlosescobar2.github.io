@@ -12,20 +12,13 @@
     <div class="allIcons">
         <a href="https://github.com/Carlosescobar2" target="_blank" ><span class="iconify"data-icon="akar-icons:github-fill"></span></a>
         <a href="https://www.linkedin.com/in/carlos-escobar11/" target="_blank" ><span class="iconify" data-icon="akar-icons:linkedin-fill"></span></a>
-        <a href=""><span class="iconify" data-icon="ic:round-email" target="_blank"></span></a>
     </div>
-<!-- <a href="index2.html" class="infoBtn" target="_blank">Info</a> -->
-<a></a>
-<!-- <script>
-document.getElementById("linktome").onclick = function() { 
-    location.href = "https://www.linkedin.com/in/carlos-escobar11/"
-  } </script> -->
+    <a href="#aboutSection" class="nav-About">About Me</a>
+
 </header>
-<!-- <h2 class="infoSelect">Info</h2> -->
-<!-- <span title="I am hovering over the text">This is the text I want to have a mousover</span> -->
 
 <body class="body1page">
-    
+
     <div class="headerText">
                 <h1>Hello, I'm Carlos Escobar.<br> I'm a Web Developer</h1>
         </div>
@@ -40,8 +33,135 @@ document.getElementById("linktome").onclick = function() {
         }
         </script>
     </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+ 
+  
+
+    <div id="aboutSection" class="scrollInfo">
+        <h1>About Me</h1>
+            <p class="aboutText">I am a 19-year-old Web Developer from Modesto, California. My journey began in the middle of 2021 when I attended DevMountain for a rigorous 4-month coding Bootcamp. During my time coding, I specialized in React, JavaScript, CSS and HTML. 
+            </p>
+            <div class="skills-box">
+                <h2 class="skills-title">Skills</h2>
+                <div class="skills-container">
+                  <span class="iconify skill-icon" data-icon="vscode-icons:file-type-html"></span>
+                  <span class="iconify skill-icon" data-icon="logos:javascript"></span>
+                  <span class="iconify skill-icon" data-icon="vscode-icons:file-type-node"></span>
+                  <span class="iconify skill-icon" data-icon="logos:react"></span>
+                  <span class="iconify skill-icon" data-icon="logos:redux"></span>
+                  
+                  <span class="iconify skill-icon" data-icon="vscode-icons:file-type-css"></span>
+                  <span class="iconify skill-icon" data-icon="logos:git-icon"></span>
+                  <span class="iconify skill-icon" data-icon="logos:postgresql"></span>
+                </div>
+              </div>
+
+              
+
+    </div>
+    <div id="projectSection" class="projectHeader">
+        <h1 class="project-title">Projects</h1>
+    
+        <div class="slider1">
+            <div class="slides1">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+
+
+                <!-- radio buttons end -->
+                <!-- slide images start -->
+               
+                <div class="slide first">
+                    <img src="./PicturesSlide/frontPage.png" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="./PicturesSlide/loggedInPage.png" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="./PicturesSlide/previewQ.png" alt="">
+                </div>
+
+                <div class="slide">
+                    <img src="./PicturesSlide/previewHouse.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./PicturesSlide/previewWand.png" alt="">
+                </div>
+                <!-- slide images end  -->
+                <!-- automatic navigation start  -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+
+                </div>
+
+                <!-- automatic navigation end  -->
+
+            </div>
+                <!-- manual navigation start  -->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+
+                </div>
+                <!-- manual navigation end  -->
+
+        </div>
+        <div></div>
 
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 5){
+                counter = 1;
+            }
+        }, 5000);
+    </script>
 </body>
 
 </html>
